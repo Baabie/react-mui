@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 export function Home() {
   return (
@@ -11,6 +11,8 @@ export function Home() {
       <Button variant="contained" color="success">
         Success
       </Button>
+
+      <Typography variant="body1">Meu título</Typography>
     </div>
   );
 }
